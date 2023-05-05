@@ -41,7 +41,7 @@ const Post = props => {
       {/* Comments also wants its props! */}
       {/* Fadlan u dir props-ka ay 'Comments' component u baahantahay */}
       
-      <Comments />
+      <Comments Comments={post.Comments}/>
     </div>
   );
 };
